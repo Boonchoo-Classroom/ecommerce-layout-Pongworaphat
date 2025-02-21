@@ -1,14 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.HomeFragment">
+    android:background="#FFFAF0"
+    android:orientation="vertical"
+    tools:context=".ui.Home.HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="189dp"
+        android:src="@drawable/post" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Home Fragement" />
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEST SELLER OF THE WEEK"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <!--สินค้าชิ้นที่ 1-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="5dp"
+            android:backgroundTint="#FDF5E6"
+            android:background="@drawable/frame">
+
+            <ImageView
+                android:id="@+id/abibas"
+                android:layout_width="110dp"
+                android:layout_height="114dp"
+                android:src="@drawable/abibas" />
+
+            <TextView
+                android:id="@+id/product_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Abibas"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/product_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="$45"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_add_to_cart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Add to Cart" />
+        </LinearLayout>
+
+        <!--สินค้าชิ้นที่ 2-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:backgroundTint="#FDF5E6"
+            android:background="@drawable/frame">
+
+            <ImageView
+                android:id="@+id/hike"
+                android:layout_width="110dp"
+                android:layout_height="114dp"
+                android:src="@drawable/hike" />
+
+            <TextView
+                android:id="@+id/product_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Hike"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/product_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="$35"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_add_to_cart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Add to Cart" />
+        </LinearLayout>
+
+        <!--สินค้าชิ้นที่ 3-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:backgroundTint="#FDF5E6"
+            android:background="@drawable/frame">
+
+            <ImageView
+                android:id="@+id/abcjds"
+                android:layout_width="110dp"
+                android:layout_height="114dp"
+                android:src="@drawable/abcjds" />
+
+            <TextView
+                android:id="@+id/product_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="abcjds"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/product_price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="$50"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_add_to_cart3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Add to Cart" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/flashsell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLASHSELL"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="110dp"
+            android:layout_height="114dp"
+            android:src="@drawable/abidas"
+            android:backgroundTint="#FDF5E6"
+            android:background="@drawable/frame"/>
+
+        <TextView
+            android:id="@+id/product_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abidas"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/product_price_discounted2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$20"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:textColor="#FF4081"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btn_add_to_cart4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
