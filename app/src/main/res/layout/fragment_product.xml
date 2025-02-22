@@ -28,7 +28,7 @@
             android:text="Bag"
             android:textSize="18dp"
             android:padding="8dp"
-            android:background="@drawable/button_color"
+            android:background="@android:color/transparent"
             android:textColor="@android:color/black"
             android:gravity="start"/>
 
@@ -38,7 +38,7 @@
             android:text="Flip Flops"
             android:textSize="18dp"
             android:padding="8dp"
-            android:background="@drawable/button_color"
+            android:background="@android:color/transparent"
             android:textColor="@android:color/black"
             android:gravity="start"/>
 
@@ -48,7 +48,7 @@
             android:text="Sneakers"
             android:textSize="18dp"
             android:padding="8dp"
-            android:background="@drawable/button_color"
+            android:background="@android:color/transparent"
             android:textColor="@android:color/black"
             android:gravity="start"/>
 
@@ -58,7 +58,7 @@
             android:text="Moccasins"
             android:textSize="18dp"
             android:padding="8dp"
-            android:background="@drawable/button_color"
+            android:background="@android:color/transparent"
             android:textColor="@android:color/black"
             android:gravity="start"/>
 
@@ -68,7 +68,7 @@
             android:text="High Tops Sneaker"
             android:textSize="18dp"
             android:padding="8dp"
-            android:background="@drawable/button_color"
+            android:background="@android:color/transparent"
             android:textColor="@android:color/black"
             android:gravity="start"/>
 
@@ -78,7 +78,7 @@
             android:text="Hoodie"
             android:textSize="18dp"
             android:padding="8dp"
-            android:background="@drawable/button_color"
+            android:background="@android:color/transparent"
             android:textColor="@android:color/black"
             android:gravity="start"/>
 
@@ -88,7 +88,7 @@
             android:text="Runner Shoes"
             android:textSize="18dp"
             android:padding="8dp"
-            android:background="@drawable/button_color"
+            android:background="@android:color/transparent"
             android:textColor="@android:color/black"
             android:gravity="start"/>
 

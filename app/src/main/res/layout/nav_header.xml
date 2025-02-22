@@ -11,7 +11,7 @@
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:contentDescription="User Avatar"
-        android:src="@mipmap/ic_roarin_lizard" />
+        android:src="@mipmap/ic_lunga" />
 
     <TextView
         android:layout_width="wrap_content"
