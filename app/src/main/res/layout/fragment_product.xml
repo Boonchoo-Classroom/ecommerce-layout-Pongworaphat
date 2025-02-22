@@ -147,6 +147,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:textSize="12sp"
+                    android:backgroundTint="@drawable/button_color2"
                     android:text="Add to Cart"/>
 
             </LinearLayout>
@@ -191,8 +192,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:textSize="12sp"
-                    android:text="Add to Cart"/>
+                    android:text="Add to Cart"
+                    android:backgroundTint="@drawable/button_color2"
+                    android:textSize="12sp" />
 
             </LinearLayout>
 

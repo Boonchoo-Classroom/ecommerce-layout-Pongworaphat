@@ -23,7 +23,7 @@
                 android:layout_height="?attr/actionBarSize"
                 app:navigationIconTint="@color/white"
                 app:titleTextColor="@color/white"
-                android:background="#06ACBD" />
+                android:background="#FF9700" />
 
         </com.google.android.material.appbar.AppBarLayout>
 
