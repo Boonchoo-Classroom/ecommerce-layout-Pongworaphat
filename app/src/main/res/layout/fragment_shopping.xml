@@ -5,9 +5,82 @@
     android:layout_height="match_parent"
     tools:context=".ui.Shopping_cart.ShoppingFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="shopping cart" />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/product_border">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/abidas"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:paddingStart="15dp"
+            android:textSize="25dp"
+            android:text="Abidas"
+            android:layout_marginTop="25dp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/product_price_discounted1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="$20"
+            android:textSize="25dp"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!-- สินค้าตัวที่ 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/product_border">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/abibas" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:paddingStart="15dp"
+            android:text="Abibas"
+            android:layout_marginTop="25dp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/product_price_discounted2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="$45"
+            android:textSize="25dp"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Pay $65"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
 
 </FrameLayout>
