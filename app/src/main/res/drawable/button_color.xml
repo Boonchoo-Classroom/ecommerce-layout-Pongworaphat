@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- สีเมื่อกดปุ่ม (พื้นหลังเทาอ่อน + กรอบดำ) -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#D3D3D3"/> <!-- สีเทาอ่อน -->
+            <corners android:radius="5dp"/> <!-- ขอบโค้งมน -->
+            <stroke android:width="2dp" android:color="#000000"/> <!-- เส้นขอบสีดำ -->
+        </shape>
+    </item>
+
+    <!-- สีปกติ (พื้นหลังโปร่งใส + กรอบดำ) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/> <!-- โปร่งใส -->
+            <corners android:radius="5dp"/> <!-- ขอบโค้งมน -->
+            <stroke android:width="2dp" android:color="#000000"/> <!-- เส้นขอบสีดำ -->
+        </shape>
+    </item>
+
+</selector>
