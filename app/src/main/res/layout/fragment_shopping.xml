@@ -74,6 +74,7 @@
             android:textAlignment="center"/>
     </LinearLayout>
 
+
     <Button
         android:id="@+id/btn_checkout"
         android:layout_width="match_parent"
